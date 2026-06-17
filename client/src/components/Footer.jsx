@@ -23,7 +23,7 @@ const Footer = ({ darkMode }) => {
             <ul className="space-y-2 text-sm opacity-75">
               <li><a href="/" className="hover:text-blue-500 transition">Home</a></li>
               <li><a href="/aptitude" className="hover:text-blue-500 transition">Tests</a></li>
-              <li><a href="/resume" className="hover:text-blue-500 transition">Resume Checker</a></li>
+              <li><a href="/resume" className="hover:text-black-500 transition">Resume Checker</a></li>
               <li><a href="/interview" className="hover:text-blue-500 transition">Interview Practice</a></li>
             </ul>
           </motion.div>
@@ -60,7 +60,7 @@ const Footer = ({ darkMode }) => {
         </div>
 
         <div className={`border-t ${darkMode ? 'border-slate-800' : 'border-slate-300'} pt-8 text-center text-sm opacity-75`}>
-          <p>&copy; 2024 PlacementHub. All rights reserved. | Made with ❤️ for students</p>
+          <p>&copy; 2024 PlacementHub. All rights . | Made with ❤️ for students</p>
         </div>
       </div>
     </footer>

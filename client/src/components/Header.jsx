@@ -13,7 +13,7 @@ const Header = () => {
     }
 
   return (
-    <div className='flex flex-col items-center mt-20 px-4 text-center text-gray-800'>
+    <div className='flex flex-col items-center mt-20 px-4 text-center text-blue-800'>
       <img src={assets.header_img} alt="Header" 
       className='w-36 h-36 rounded-full mb-6' />
        
